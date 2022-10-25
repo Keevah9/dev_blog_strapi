@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_config_sociallinks",
+  "info": {
+    "displayName": "sociallinks",
+    "icon": "crutch"
+  },
+  "options": {},
+  "attributes": {
+    "socialmedia": {
+      "type": "enumeration",
+      "enum": [
+        "github",
+        "youtube",
+        "twitter",
+        "facebook",
+        "whatsapp"
+      ],
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

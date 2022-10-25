@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_seo_seo_infos",
+  "info": {
+    "displayName": "seoInfo",
+    "icon": "circle-notch"
+  },
+  "options": {},
+  "attributes": {
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDesc": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_layout_herosections",
+  "info": {
+    "displayName": "herosection",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "cta": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "buttons": {
+      "displayName": "links",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.links"
+    }
+  }
+}
